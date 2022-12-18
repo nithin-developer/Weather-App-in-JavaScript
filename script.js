@@ -5,7 +5,7 @@ var description = document.querySelector('#description')
 var temp = document.querySelector('#temp')
 var wind = document.querySelector('#wind')
 
-apikey = "de9fd8a722542a526890360832401551"
+apikey = "Your API KEY"
 
 function convertion(val) {
     return (val - 273).toFixed(2)
